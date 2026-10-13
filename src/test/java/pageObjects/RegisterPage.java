@@ -11,86 +11,98 @@ public class RegisterPage extends BasePage {
 	}
 
 	@FindBy(xpath = "//input[@id='input-firstname']")
-	private WebElement txtFirstName;
+	WebElement txtFirstname;
 
 	@FindBy(xpath = "//input[@id='input-lastname']")
-	private WebElement txtLastName;
+	WebElement txtLasttname;
 
 	@FindBy(xpath = "//input[@id='input-email']")
-	private WebElement txtEmail;
+	WebElement txtEmail;
+
+	@FindBy(xpath = "//input[@id='input-telephone']")
+	WebElement txtTelephone;
 
 	@FindBy(xpath = "//input[@id='input-password']")
-	private WebElement txtPassword;
+	WebElement txtPassword;
 
-	@FindBy(xpath = "//input[@id='input-newsletter']")
-	private WebElement tglNewsletter;
+	@FindBy(xpath = "//input[@id='input-confirm']")
+	WebElement txtConfirmPassword;
 
 	@FindBy(xpath = "//input[@name='agree']")
-	private WebElement tglAgree;
+	WebElement chkdPolicy;
 
-	@FindBy(xpath = "//button[normalize-space()='Continue']")
-	private WebElement btnContinue;
+	@FindBy(xpath = "//input[@value='Continue']")
+	WebElement btnContinue;
 
-	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']")  
-	private WebElement msgConfirmation;
+	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
+	WebElement msgConfirmation;
 
-	public void setFirstName(String firstName) {
-		txtFirstName.sendKeys(firstName);
+	public void setFirstName(String fname) {
+		txtFirstname.sendKeys(fname);
+
 	}
 
-	public void setLastName(String lastName) {
-		txtLastName.sendKeys(lastName);
+	public void setLastName(String lname) {
+		txtLasttname.sendKeys(lname);
+
 	}
 
 	public void setEmail(String email) {
 		txtEmail.sendKeys(email);
+
 	}
 
-	public void setPassword(String password) {
-		txtPassword.sendKeys(password);
+	public void setTelephone(String tel) {
+		txtTelephone.sendKeys(tel);
+
 	}
 
-	public void setNewsletter() {
-		if (!tglNewsletter.isSelected()) {
-			tglNewsletter.click();
-		}
+	public void setPassword(String pwd) {
+		txtPassword.sendKeys(pwd);
+
 	}
 
-	public void setArgee() {
-		if (!tglAgree.isSelected()) {
-			tglAgree.click();
-		}
+	public void setConfirmPassword(String pwd) {
+		txtConfirmPassword.sendKeys(pwd);
+
+	}
+
+	public void setPrivacyPolicy() {
+		chkdPolicy.click();
+
 	}
 
 	public void clickContinue() {
-		// solution1
+		// sol1
 		btnContinue.click();
 
-		// solution2
+		// sol2
 		// btnContinue.submit();
 
-		// solution3
-		// Actions act = new Action(driver)
+		// sol3
+		// Actions act=new Actions(driver);
 		// act.moveToElement(btnContinue).click().perform();
 
-		// solution4
-		// JavascriptExecutor js = (JavascriptExecutor) driver;
+		// sol4
+		// JavascriptExecutor js=(JavascriptExecutor)driver;
 		// js.executeScript("arguments[0].click();", btnContinue);
 
-		// solution5
+		// Sol 5
 		// btnContinue.sendKeys(Keys.RETURN);
 
-		// solution6
-		// WebDriverWait myWait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		// myWait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();
+		// Sol6
+		// WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		// mywait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();
+
 	}
-	
+
 	public String getConfirmationMsg() {
 		try {
 			return (msgConfirmation.getText());
-		}catch (Exception e) {
+		} catch (Exception e) {
 			return (e.getMessage());
-		}
-	}
 
+		}
+
+	}
 }

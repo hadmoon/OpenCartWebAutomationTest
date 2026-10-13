@@ -1,2 +1,2 @@
-cd G:\_Udemy\Projects\OpenCart\Project\OpenCart0001
+cd /d G:\_Udemy\Projects\OpenCart\Project\OpenCart0001
 mvn test

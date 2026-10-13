@@ -22,7 +22,7 @@
 				<version>3.5.2</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>final.xml</suiteXmlFile>
+						<suiteXmlFile>Grid-Docker.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

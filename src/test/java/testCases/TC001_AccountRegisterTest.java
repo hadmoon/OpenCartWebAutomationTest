@@ -25,9 +25,13 @@ public class TC001_AccountRegisterTest extends BaseClass {
 			rp.setFirstName(randomString(4));
 			rp.setLastName(randomString(6));
 			rp.setEmail(randomAlphanumeric(6).concat("@gmail.com"));
-			rp.setPassword(randomString(5).concat("@").concat(randomNumber(5)));
-			rp.setNewsletter();
-			rp.setArgee();
+			rp.setTelephone(randomNumber(10));
+			
+			String password=randomString(5).concat("@").concat(randomNumber(5));
+			rp.setPassword(password);
+			rp.setConfirmPassword(password);
+			
+			rp.setPrivacyPolicy();
 			rp.clickContinue();
 			logger.info("Validating expected message..");
 			String confmsg = rp.getConfirmationMsg();

@@ -1,459 +1,206 @@
-2026-10-12 12:01:51 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 12:01:51 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 12:04:09 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 12:04:09 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 12:09:30 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 12:09:30 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 12:11:49 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 12:11:49 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 12:13:37 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 12:13:37 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 12:17:33 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 12:17:34 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 12:17:55 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:17:55 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:17:55 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:17:56 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 12:17:56 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 12:18:06 ERROR TC_002_LoginTest:46 -An exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
-  (Session info: chrome=153.0.8010.47)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [ec037da26c28bdcb29db2134d4be181a, findElement {using=xpath, value=//input[@id='input-email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38205}, goog:processID: 772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: efd58dbac50b, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ec037da26c28bdcb29db2134d4be181a
-2026-10-12 12:18:06 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:18:07 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 12:18:07 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 12:18:07 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 12:18:08 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 12:18:08 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 12:18:18 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:18:19 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:18:19 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:18:19 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:18:19 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 12:18:19 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 12:18:29 ERROR TC_002_LoginTest:46 -An exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
-  (Session info: chrome=153.0.8010.47)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [88766bbd297df573b990d97da5e262c4, findElement {using=xpath, value=//input[@id='input-email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45143}, goog:processID: 1206, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: efd58dbac50b, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 88766bbd297df573b990d97da5e262c4
-2026-10-12 12:18:29 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:20:29 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 12:20:29 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 12:20:29 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 12:20:29 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:20:34 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 12:20:34 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 12:20:34 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 12:20:34 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:20:39 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:20:39 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:20:39 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:20:39 ERROR TC_002_LoginTest:46 -An exception occurred: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A8081/opencart/upload/index.php%3Froute%3Daccount/login%26language%3Den-gb&c=UTF-8&captivePortalState=unknown&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8081.&a=
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [73463161-d091-496b-9c1d-4891046aecf8, clickElement {id=32621491-13b7-4d16-b6dc-46ba26f8baa6}]
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 156.0, container:hostname: 8492034aa6ff, moz:accessibilityChecks: false, moz:buildID: 20260909172920, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 5.15.167.4-microsoft-standa..., moz:processID: 1517, moz:profile: /tmp/rust_mozprofilezrImYj, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, se:containerName: 8492034aa6ff, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Element: [[RemoteWebDriver: firefox on linux (73463161-d091-496b-9c1d-4891046aecf8)] -> link text: Login]
-Session ID: 73463161-d091-496b-9c1d-4891046aecf8
-2026-10-12 12:20:39 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:20:43 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:20:43 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:20:44 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:20:44 ERROR TC_002_LoginTest:46 -An exception occurred: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A8081/opencart/upload/index.php%3Froute%3Daccount/login%26language%3Den-gb&c=UTF-8&captivePortalState=unknown&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8081.&a=
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [ff3f7b33-feef-4b51-bccd-7fdda4bc039b, clickElement {id=e0dc318a-ac16-490b-8d20-e710f039e741}]
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 156.0, container:hostname: 8492034aa6ff, moz:accessibilityChecks: false, moz:buildID: 20260909172920, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 5.15.167.4-microsoft-standa..., moz:processID: 1908, moz:profile: /tmp/rust_mozprofileCqboZG, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, se:containerName: 8492034aa6ff, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Element: [[RemoteWebDriver: firefox on linux (ff3f7b33-feef-4b51-bccd-7fdda4bc039b)] -> link text: Login]
-Session ID: ff3f7b33-feef-4b51-bccd-7fdda4bc039b
-2026-10-12 12:20:44 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:21:46 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 12:21:46 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 12:21:48 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 12:21:48 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 12:21:48 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 12:21:48 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 12:21:48 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 12:21:58 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:21:59 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:21:59 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:22:00 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:22:00 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 12:22:00 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 12:22:10 ERROR TC_002_LoginTest:46 -An exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
-  (Session info: chrome=153.0.8010.47)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [964760965577a652b1c3030834336c21, findElement {using=xpath, value=//input[@id='input-email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37751}, goog:processID: 1669, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: efd58dbac50b, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 964760965577a652b1c3030834336c21
-2026-10-12 12:22:10 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:22:14 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 12:22:14 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 12:22:14 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 12:22:14 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:22:19 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:22:19 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:22:19 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:22:19 ERROR TC_002_LoginTest:46 -An exception occurred: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A8081/opencart/upload/index.php%3Froute%3Daccount/login%26language%3Den-gb&c=UTF-8&captivePortalState=unknown&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8081.&a=
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [2c313f2d-f6fe-4b2a-829b-dfe37c99eee8, clickElement {id=b1003d05-072b-405a-a378-e2ab2c40ebca}]
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 156.0, container:hostname: 8492034aa6ff, moz:accessibilityChecks: false, moz:buildID: 20260909172920, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 5.15.167.4-microsoft-standa..., moz:processID: 2682, moz:profile: /tmp/rust_mozprofileJJioXr, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, se:containerName: 8492034aa6ff, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Element: [[RemoteWebDriver: firefox on linux (2c313f2d-f6fe-4b2a-829b-dfe37c99eee8)] -> link text: Login]
-Session ID: 2c313f2d-f6fe-4b2a-829b-dfe37c99eee8
-2026-10-12 12:22:19 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:27:07 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 12:27:07 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 12:27:10 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 12:27:10 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 12:27:10 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 12:27:11 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 12:27:11 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 12:27:21 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:27:22 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:27:22 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:27:22 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:27:22 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 12:27:22 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 12:27:32 ERROR TC_002_LoginTest:46 -An exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
-  (Session info: chrome=153.0.8010.47)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [04da36db3f8c319058ab6ad1039d06a0, findElement {using=xpath, value=//input[@id='input-email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:32989}, goog:processID: 458, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.2:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: 5fc09b894aba, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.19.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 04da36db3f8c319058ab6ad1039d06a0
-2026-10-12 12:27:32 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:27:37 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 12:27:37 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 12:27:37 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 12:27:37 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:27:42 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:27:42 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:27:42 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:27:43 ERROR TC_002_LoginTest:46 -An exception occurred: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A8081/opencart/upload/index.php%3Froute%3Daccount/login%26language%3Den-gb&c=UTF-8&captivePortalState=unknown&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8081.&a=
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [08aec75a-5dba-4c8d-9aac-fcaf110c01b6, clickElement {id=ca062671-07b8-4131-83e5-175d3bed28c3}]
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 156.0, container:hostname: c1f7b4e8e4bc, moz:accessibilityChecks: false, moz:buildID: 20260909172920, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 5.15.167.4-microsoft-standa..., moz:processID: 598, moz:profile: /tmp/rust_mozprofilePYmOst, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, se:containerName: c1f7b4e8e4bc, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Element: [[RemoteWebDriver: firefox on linux (08aec75a-5dba-4c8d-9aac-fcaf110c01b6)] -> link text: Login]
-Session ID: 08aec75a-5dba-4c8d-9aac-fcaf110c01b6
-2026-10-12 12:27:43 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:28:22 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 12:28:22 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 12:35:48 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 12:35:48 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 12:35:52 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 12:35:52 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 12:35:53 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 12:35:53 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 12:35:53 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 12:36:03 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:36:04 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:36:04 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:36:04 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:36:05 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 12:36:05 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 12:36:15 ERROR TC_002_LoginTest:46 -An exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
-  (Session info: chrome=153.0.8010.47)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [456888a9bb41ab239f0f4d278c61a649, findElement {using=xpath, value=//input[@id='input-email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45799}, goog:processID: 464, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: 534174d48f23, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 456888a9bb41ab239f0f4d278c61a649
-2026-10-12 12:36:15 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:36:20 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 12:36:20 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 12:36:20 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 12:36:20 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:36:26 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:36:26 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:36:26 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:36:26 ERROR TC_002_LoginTest:46 -An exception occurred: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A8081/opencart/upload/index.php%3Froute%3Daccount/login%26language%3Den-gb&c=UTF-8&captivePortalState=unknown&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8081.&a=
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [9b3ca0e4-cec9-481e-8fb1-49a5f80252b8, clickElement {id=545416a9-bc79-4b94-a5ff-42f78fb0b0a0}]
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 156.0, container:hostname: ebb26037602f, moz:accessibilityChecks: false, moz:buildID: 20260909172920, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 5.15.167.4-microsoft-standa..., moz:processID: 618, moz:profile: /tmp/rust_mozprofilemDxiP0, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, se:containerName: ebb26037602f, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.19.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Element: [[RemoteWebDriver: firefox on linux (9b3ca0e4-cec9-481e-8fb1-49a5f80252b8)] -> link text: Login]
-Session ID: 9b3ca0e4-cec9-481e-8fb1-49a5f80252b8
-2026-10-12 12:36:26 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:58:45 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 12:58:45 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 12:58:52 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 12:58:52 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 12:58:52 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 12:58:52 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 12:58:52 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 12:59:02 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:59:04 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:59:04 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:59:04 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:59:04 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 12:59:04 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 12:59:14 ERROR TC_002_LoginTest:46 -An exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
-  (Session info: chrome=153.0.8010.47)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [05586260cef2180f0f83f8afefba3bbc, findElement {using=xpath, value=//input[@id='input-email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34231}, goog:processID: 1047, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: 534174d48f23, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 05586260cef2180f0f83f8afefba3bbc
-2026-10-12 12:59:14 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:59:20 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 12:59:20 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 12:59:20 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 12:59:20 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 12:59:25 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 12:59:25 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 12:59:25 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 12:59:26 ERROR TC_002_LoginTest:46 -An exception occurred: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A8081/opencart/upload/index.php%3Froute%3Daccount/login%26language%3Den-gb&c=UTF-8&captivePortalState=unknown&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8081.&a=
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [f8a13fb0-a7ef-45ba-8e03-1184ae71f1fb, clickElement {id=f58b76fc-22c4-4f59-9434-6c2a9035f981}]
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 156.0, container:hostname: ebb26037602f, moz:accessibilityChecks: false, moz:buildID: 20260909172920, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 5.15.167.4-microsoft-standa..., moz:processID: 1471, moz:profile: /tmp/rust_mozprofiledRtwVX, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, se:containerName: ebb26037602f, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.19.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Element: [[RemoteWebDriver: firefox on linux (f8a13fb0-a7ef-45ba-8e03-1184ae71f1fb)] -> link text: Login]
-Session ID: f8a13fb0-a7ef-45ba-8e03-1184ae71f1fb
-2026-10-12 12:59:26 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 13:04:29 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 13:04:29 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 13:04:32 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 13:04:32 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 13:04:32 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 13:04:32 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 13:04:32 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 13:04:42 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 13:04:43 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 13:04:43 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 13:04:43 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 13:04:44 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 13:04:44 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 13:04:54 ERROR TC_002_LoginTest:46 -An exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
-  (Session info: chrome=153.0.8010.47)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [9d35eef7c6eafaed954fc834759fc424, findElement {using=xpath, value=//input[@id='input-email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40395}, goog:processID: 1511, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: 534174d48f23, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9d35eef7c6eafaed954fc834759fc424
-2026-10-12 13:04:54 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 13:04:58 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 13:04:58 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 13:04:58 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 13:04:59 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 13:05:03 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 13:05:03 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 13:05:03 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 13:05:04 ERROR TC_002_LoginTest:46 -An exception occurred: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A8081/opencart/upload/index.php%3Froute%3Daccount/login%26language%3Den-gb&c=UTF-8&captivePortalState=unknown&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8081.&a=
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.2.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [8acb11e6-74be-44fa-9385-31ff39ba2c70, clickElement {id=1a2df6ec-ffca-4d29-a6b8-9d8c6aa257c9}]
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 156.0, container:hostname: ebb26037602f, moz:accessibilityChecks: false, moz:buildID: 20260909172920, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 5.15.167.4-microsoft-standa..., moz:processID: 2275, moz:profile: /tmp/rust_mozprofileeSmvIp, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, se:containerName: ebb26037602f, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.19.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Element: [[RemoteWebDriver: firefox on linux (8acb11e6-74be-44fa-9385-31ff39ba2c70)] -> link text: Login]
-Session ID: 8acb11e6-74be-44fa-9385-31ff39ba2c70
-2026-10-12 13:05:04 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 13:15:16 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 13:15:16 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 13:15:20 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 13:15:20 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 13:15:20 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 13:15:21 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 13:15:21 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 13:15:21 INFO  TC001_AccountRegisterTest:32 -Validating expected message..
-2026-10-12 13:15:22 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 13:15:23 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 13:15:23 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 13:15:23 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 13:15:24 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 13:15:24 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 13:15:24 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-12 13:15:34 ERROR TC_002_LoginTest:42 -TC002: Login failed
-2026-10-12 13:15:34 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 13:15:40 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 13:15:40 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 13:15:40 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 13:15:41 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 13:15:41 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 13:15:42 INFO  TC001_AccountRegisterTest:32 -Validating expected message..
-2026-10-12 13:15:42 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 13:15:47 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 13:15:47 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 13:15:47 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 13:15:47 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 13:15:47 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 13:15:48 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-12 13:15:58 ERROR TC_002_LoginTest:42 -TC002: Login failed
-2026-10-12 13:15:58 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 13:16:55 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-12 13:16:55 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-12 15:51:31 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-12 15:51:31 INFO  Utils:112 -[TestNG] Running:
+2026-10-13 08:25:23 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
+2026-10-13 08:25:23 INFO  Utils:112 -[TestNG] Running:
   G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
 
-2026-10-12 15:52:43 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-12 15:52:43 INFO  Utils:112 -[TestNG] Running:
+2026-10-13 08:26:51 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
+2026-10-13 08:26:52 INFO  Utils:112 -[TestNG] Running:
   G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
 
-2026-10-12 15:53:23 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-12 15:53:24 INFO  Utils:112 -[TestNG] Running:
+2026-10-13 08:27:02 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
+2026-10-13 08:27:02 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
+2026-10-13 08:27:02 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
+2026-10-13 08:27:02 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
+2026-10-13 08:27:02 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
+2026-10-13 08:27:04 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
+2026-10-13 08:27:04 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:27:06 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-13 08:27:06 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-13 08:27:06 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-13 08:27:06 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-13 08:27:06 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-13 08:27:17 ERROR TC_002_LoginTest:46 -An exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Login']"}
+  (Session info: chrome=155.0.8059.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38ff4c26ac22e2bfdeaec4db970a9e9f, findElement {using=xpath, value=//button[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\Users\Zues\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62611}, goog:processID: 14084, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62611/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38ff4c26ac22e2bfdeaec4db970a9e9f
+2026-10-13 08:27:17 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:28:13 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
+2026-10-13 08:28:13 INFO  Utils:112 -[TestNG] Running:
   G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
 
-2026-10-12 15:53:28 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 15:53:28 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 15:53:28 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 15:53:28 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 15:53:28 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 15:53:29 INFO  TC001_AccountRegisterTest:32 -Validating expected message..
-2026-10-12 15:53:29 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 15:53:30 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 15:53:30 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 15:53:31 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 15:53:31 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 15:53:31 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 15:53:31 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-12 15:53:41 ERROR TC_002_LoginTest:42 -TC002: Login failed
-2026-10-12 15:53:41 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:02:57 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-12 16:02:59 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 16:02:59 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 16:03:00 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 16:03:00 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 16:03:00 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 16:03:00 INFO  TC001_AccountRegisterTest:32 -Validating expected message..
-2026-10-12 16:03:01 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:03:03 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 16:03:03 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 16:03:03 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 16:03:03 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 16:03:03 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 16:03:03 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-12 16:03:13 ERROR TC_002_LoginTest:42 -TC002: Login failed
-2026-10-12 16:03:13 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:04:26 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-12 16:04:29 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 16:04:29 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 16:04:29 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 16:04:29 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 16:04:29 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 16:04:30 INFO  TC001_AccountRegisterTest:32 -Validating expected message..
-2026-10-12 16:04:30 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:04:32 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 16:04:32 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 16:04:32 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 16:04:32 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 16:04:32 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 16:04:32 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-12 16:04:42 ERROR TC_002_LoginTest:42 -TC002: Login failed
-2026-10-12 16:04:42 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:06:12 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-12 16:06:15 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 16:06:15 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 16:06:15 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 16:06:15 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 16:06:15 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 16:06:16 INFO  TC001_AccountRegisterTest:32 -Validating expected message..
-2026-10-12 16:06:16 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:06:18 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 16:06:18 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 16:06:18 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 16:06:19 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 16:06:19 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 16:06:19 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-12 16:06:29 ERROR TC_002_LoginTest:42 -TC002: Login failed
-2026-10-12 16:06:29 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:06:58 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-12 16:07:00 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 16:07:00 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 16:07:00 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 16:07:01 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 16:07:01 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 16:07:01 INFO  TC001_AccountRegisterTest:32 -Validating expected message..
-2026-10-12 16:07:02 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:07:04 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 16:07:04 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 16:07:04 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 16:07:04 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 16:07:04 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 16:07:04 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-12 16:07:05 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:12:21 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-12 16:12:24 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 16:12:24 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 16:12:24 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 16:12:24 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 16:12:24 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 16:12:25 INFO  TC001_AccountRegisterTest:32 -Validating expected message..
-2026-10-12 16:12:25 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:12:27 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 16:12:27 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 16:12:27 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 16:12:28 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 16:12:28 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 16:12:28 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-12 16:12:28 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:20:30 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-12 16:20:32 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-12 16:20:32 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-12 16:20:32 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-12 16:20:33 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-12 16:20:33 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-12 16:20:33 INFO  TC001_AccountRegisterTest:32 -Validating expected message..
-2026-10-12 16:20:34 INFO  TC001_AccountRegisterTest:44 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-12 16:20:35 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-12 16:20:35 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-12 16:20:35 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-12 16:20:36 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-12 16:20:36 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-12 16:20:36 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-12 16:20:36 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:28:41 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-13 08:28:41 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-13 08:28:41 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-13 08:28:41 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-13 08:28:41 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-13 08:28:51 ERROR TC_002_LoginTest:46 -An exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[normalize-space()='Login']"}
+  (Session info: chrome=155.0.8059.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a639f3e1d259af8a14fbb8b4fe882200, findElement {using=xpath, value=//input[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\Users\Zues\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55615}, goog:processID: 23688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55615/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a639f3e1d259af8a14fbb8b4fe882200
+2026-10-13 08:28:51 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:30:24 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
+2026-10-13 08:30:24 INFO  Utils:112 -[TestNG] Running:
+  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
+
+2026-10-13 08:30:26 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
+2026-10-13 08:30:26 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
+2026-10-13 08:30:26 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
+2026-10-13 08:30:26 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
+2026-10-13 08:30:26 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
+2026-10-13 08:30:29 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
+2026-10-13 08:30:29 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:30:30 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-13 08:30:30 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-13 08:30:30 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-13 08:30:31 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-13 08:30:31 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-13 08:30:32 INFO  TC_002_LoginTest:32 -clicked on login button..
+2026-10-13 08:30:42 ERROR TC_002_LoginTest:42 -TC002: Login failed
+2026-10-13 08:30:42 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:33:09 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
+2026-10-13 08:33:09 INFO  Utils:112 -[TestNG] Running:
+  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
+
+2026-10-13 08:33:14 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
+2026-10-13 08:33:14 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
+2026-10-13 08:33:14 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
+2026-10-13 08:33:14 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
+2026-10-13 08:33:14 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
+2026-10-13 08:33:16 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
+2026-10-13 08:33:16 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:33:18 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-13 08:33:18 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-13 08:33:18 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-13 08:33:18 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-13 08:33:18 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-13 08:33:18 INFO  TC_002_LoginTest:32 -clicked on login button..
+2026-10-13 08:33:19 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:33:51 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\crossbrowsertests.xml"
+2026-10-13 08:33:51 INFO  Utils:112 -[TestNG] Running:
+  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\crossbrowsertests.xml
+
+2026-10-13 08:34:00 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
+2026-10-13 08:34:00 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
+2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
+2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
+2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
+2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
+2026-10-13 08:34:01 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
+2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
+2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
+2026-10-13 08:34:01 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
+2026-10-13 08:34:02 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
+2026-10-13 08:34:02 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
+2026-10-13 08:34:02 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
+2026-10-13 08:34:02 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
+2026-10-13 08:34:02 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
+2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
+2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
+2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
+2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:34:07 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-13 08:34:07 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-13 08:34:07 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-13 08:34:07 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-13 08:34:07 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-13 08:34:07 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-13 08:34:07 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-13 08:34:07 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-13 08:34:07 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-13 08:34:07 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-13 08:34:07 INFO  TC_002_LoginTest:32 -clicked on login button..
+2026-10-13 08:34:09 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:34:09 INFO  TC_002_LoginTest:32 -clicked on login button..
+2026-10-13 08:34:09 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:34:11 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-13 08:34:11 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-13 08:34:11 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-13 08:34:11 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-13 08:34:11 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-13 08:34:12 INFO  TC_002_LoginTest:32 -clicked on login button..
+2026-10-13 08:34:12 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:42:59 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
+2026-10-13 08:43:00 INFO  Utils:112 -[TestNG] Running:
+  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
+
+2026-10-13 08:43:24 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
+2026-10-13 08:43:24 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
+2026-10-13 08:43:24 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
+2026-10-13 08:43:24 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
+2026-10-13 08:43:24 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
+2026-10-13 08:43:26 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
+2026-10-13 08:43:27 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:43:28 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-13 08:43:28 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-13 08:43:28 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-13 08:43:29 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-13 08:43:29 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-13 08:43:30 INFO  TC_002_LoginTest:32 -clicked on login button..
+2026-10-13 08:43:30 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:44:29 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
+2026-10-13 08:44:29 INFO  Utils:112 -[TestNG] Running:
+  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
+
+2026-10-13 08:44:53 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-13 08:44:53 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-13 08:44:54 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-13 08:44:54 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-13 08:44:54 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-13 08:44:56 INFO  TC_002_LoginTest:32 -clicked on login button..
+2026-10-13 08:44:56 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:49:05 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
+2026-10-13 08:49:06 INFO  Utils:112 -[TestNG] Running:
+  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
+
+2026-10-13 08:51:45 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
+2026-10-13 08:51:45 INFO  Utils:112 -[TestNG] Running:
+  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
+
+2026-10-13 08:51:49 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
+2026-10-13 08:51:49 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
+2026-10-13 08:51:49 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
+2026-10-13 08:51:50 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
+2026-10-13 08:51:50 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
+2026-10-13 08:51:53 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
+2026-10-13 08:51:53 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 08:51:54 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-13 08:51:54 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-13 08:51:55 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-13 08:51:55 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-13 08:51:55 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-13 08:51:57 INFO  TC_002_LoginTest:32 -clicked on login button..
+2026-10-13 08:51:57 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 09:07:06 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Master.xml"
+2026-10-13 09:08:20 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Grid-Docker.xml"
+2026-10-13 09:08:46 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
+2026-10-13 09:08:46 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
+2026-10-13 09:08:46 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
+2026-10-13 09:09:02 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
+2026-10-13 09:09:02 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
+2026-10-13 09:09:06 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
+2026-10-13 09:09:06 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 09:09:35 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
+2026-10-13 09:09:35 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
+2026-10-13 09:09:35 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
+2026-10-13 09:09:36 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
+2026-10-13 09:09:36 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
+2026-10-13 09:09:38 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
+2026-10-13 09:09:38 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-13 09:09:43 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-13 09:09:43 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-13 09:09:44 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-13 09:09:44 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-13 09:09:44 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-13 09:09:46 INFO  TC_002_LoginTest:32 -clicked on login button..
+2026-10-13 09:09:46 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****

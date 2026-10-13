@@ -1,0 +1,30 @@
+To Run Standalone grid
+----------------------
+cd /d G:\_Udemy\Projects\OpenCart\Project\OpenCart0001
+java -jar selenium-server-4.51.0.jar standalone
+
+
+To Start Grid on Docker
+----------------------
+Open docker desktop
+Open terminal
+cd /d G:\_Udemy\Projects\OpenCart\Project\OpenCart0001
+docker-compose up
+
+
+To Remove Containers on Docker
+------------------------------
+cd /d G:\_Udemy\Projects\OpenCart\Project\OpenCart0001
+docker-compose down
+
+
+To Run pom.xml in Command Prompt
+-------------------
+cd /d G:\_Udemy\Projects\OpenCart\Project\OpenCart0001
+mvn test
+
+To Run on Jenkins
+Open Terminal
+cd /d G:\_Udemy\Projects\OpenCart\Project\OpenCart0001
+java -jar jenkins.war  --enable-future-java
+

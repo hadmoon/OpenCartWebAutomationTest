@@ -100,9 +100,9 @@ public class BaseClass {
 		}
 
 		getDriver().manage().deleteAllCookies();
-		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
-		getDriver().get(p.getProperty("appURL1"));
+		getDriver().get(p.getProperty("appURLDemo"));
 		getDriver().manage().window().maximize();
 	}
 
