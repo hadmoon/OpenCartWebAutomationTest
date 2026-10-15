@@ -6,7 +6,7 @@
   </listeners>
   <test thread-count="5" name="chrometest(failed)" verbose="0">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <groups>
       <run>
         <include name="Master"/>
@@ -20,6 +20,13 @@
           <include name="verify_login"/>
         </methods>
       </class> <!-- testCases.TC002_LoginTest$TC_002_LoginTest -->
+      <class name="testCases.TC001_AccountRegisterTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verify_account_registration"/>
+        </methods>
+      </class> <!-- testCases.TC001_AccountRegisterTest -->
     </classes>
   </test> <!-- chrometest(failed) -->
 </suite> <!-- Failed suite [master] -->

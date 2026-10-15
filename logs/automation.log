@@ -1,206 +1,34 @@
-2026-10-13 08:25:23 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-13 08:25:23 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
+2026-10-15 20:18:15 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Master.xml"
+2026-10-15 20:18:15 INFO  Utils:112 -[TestNG] Running:
+  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Master.xml
 
-2026-10-13 08:26:51 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-13 08:26:52 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
+2026-10-15 20:18:25 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
+2026-10-15 20:18:25 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
+2026-10-15 20:18:25 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
+2026-10-15 20:18:25 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
+2026-10-15 20:18:25 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
+2026-10-15 20:18:28 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
+2026-10-15 20:18:28 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-15 20:18:29 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
+2026-10-15 20:18:29 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
+2026-10-15 20:18:29 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
+2026-10-15 20:18:30 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
+2026-10-15 20:18:30 INFO  TC_002_LoginTest:28 -Entering valid email and password..
+2026-10-15 20:18:31 INFO  TC_002_LoginTest:32 -clicked on login button..
+2026-10-15 20:18:31 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
+2026-10-15 20:29:47 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Master.xml"
+2026-10-15 20:29:48 INFO  Utils:112 -[TestNG] Running:
+  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Master.xml
 
-2026-10-13 08:27:02 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-13 08:27:02 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-13 08:27:02 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-13 08:27:02 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-13 08:27:02 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-13 08:27:04 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
-2026-10-13 08:27:04 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:27:06 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-13 08:27:06 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-13 08:27:06 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-13 08:27:06 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-13 08:27:06 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-13 08:27:17 ERROR TC_002_LoginTest:46 -An exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Login']"}
-  (Session info: chrome=155.0.8059.40)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [38ff4c26ac22e2bfdeaec4db970a9e9f, findElement {using=xpath, value=//button[normalize-space()='Login']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\Users\Zues\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62611}, goog:processID: 14084, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62611/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 38ff4c26ac22e2bfdeaec4db970a9e9f
-2026-10-13 08:27:17 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:28:13 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-13 08:28:13 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
+2026-10-15 20:29:52 INFO  TC004_SearchProductTest:13 - Starting TC_004_SearchProductTest 
+2026-10-15 20:29:52 INFO  TC004_SearchProductTest:33 - Finished TC_004_SearchProductTest 
+2026-10-15 20:37:26 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Master.xml"
+2026-10-15 20:37:26 INFO  Utils:112 -[TestNG] Running:
+  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Master.xml
 
-2026-10-13 08:28:41 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-13 08:28:41 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-13 08:28:41 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-13 08:28:41 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-13 08:28:41 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-13 08:28:51 ERROR TC_002_LoginTest:46 -An exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[normalize-space()='Login']"}
-  (Session info: chrome=155.0.8059.40)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a639f3e1d259af8a14fbb8b4fe882200, findElement {using=xpath, value=//input[normalize-space()='Login']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\Users\Zues\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55615}, goog:processID: 23688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55615/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a639f3e1d259af8a14fbb8b4fe882200
-2026-10-13 08:28:51 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:30:24 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-13 08:30:24 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
+2026-10-15 20:37:30 INFO  TC005_AddToCartPageTest:13 - Starting TC_005_AddToCartPageTest 
+2026-10-15 20:37:31 INFO  TC005_AddToCartPageTest:37 - Finished TC_004_SearchProductTest 
+2026-10-15 20:49:08 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Master.xml"
+2026-10-15 20:49:09 INFO  Utils:112 -[TestNG] Running:
+  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Master.xml
 
-2026-10-13 08:30:26 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-13 08:30:26 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-13 08:30:26 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-13 08:30:26 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-13 08:30:26 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-13 08:30:29 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
-2026-10-13 08:30:29 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:30:30 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-13 08:30:30 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-13 08:30:30 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-13 08:30:31 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-13 08:30:31 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-13 08:30:32 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-13 08:30:42 ERROR TC_002_LoginTest:42 -TC002: Login failed
-2026-10-13 08:30:42 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:33:09 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-13 08:33:09 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
-
-2026-10-13 08:33:14 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-13 08:33:14 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-13 08:33:14 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-13 08:33:14 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-13 08:33:14 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-13 08:33:16 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
-2026-10-13 08:33:16 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:33:18 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-13 08:33:18 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-13 08:33:18 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-13 08:33:18 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-13 08:33:18 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-13 08:33:18 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-13 08:33:19 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:33:51 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\crossbrowsertests.xml"
-2026-10-13 08:33:51 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\crossbrowsertests.xml
-
-2026-10-13 08:34:00 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-13 08:34:00 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-13 08:34:01 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-13 08:34:01 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-13 08:34:01 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-13 08:34:02 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-13 08:34:02 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-13 08:34:02 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-13 08:34:02 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-13 08:34:02 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
-2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
-2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
-2026-10-13 08:34:04 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:34:07 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-13 08:34:07 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-13 08:34:07 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-13 08:34:07 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-13 08:34:07 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-13 08:34:07 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-13 08:34:07 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-13 08:34:07 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-13 08:34:07 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-13 08:34:07 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-13 08:34:07 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-13 08:34:09 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:34:09 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-13 08:34:09 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:34:11 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-13 08:34:11 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-13 08:34:11 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-13 08:34:11 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-13 08:34:11 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-13 08:34:12 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-13 08:34:12 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:42:59 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-13 08:43:00 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
-
-2026-10-13 08:43:24 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-13 08:43:24 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-13 08:43:24 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-13 08:43:24 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-13 08:43:24 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-13 08:43:26 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
-2026-10-13 08:43:27 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:43:28 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-13 08:43:28 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-13 08:43:28 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-13 08:43:29 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-13 08:43:29 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-13 08:43:30 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-13 08:43:30 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:44:29 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-13 08:44:29 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
-
-2026-10-13 08:44:53 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-13 08:44:53 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-13 08:44:54 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-13 08:44:54 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-13 08:44:54 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-13 08:44:56 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-13 08:44:56 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:49:05 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml"
-2026-10-13 08:49:06 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\final.xml
-
-2026-10-13 08:51:45 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml"
-2026-10-13 08:51:45 INFO  Utils:112 -[TestNG] Running:
-  G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\grid-docker.xml
-
-2026-10-13 08:51:49 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-13 08:51:49 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-13 08:51:49 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-13 08:51:50 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-13 08:51:50 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-13 08:51:53 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
-2026-10-13 08:51:53 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 08:51:54 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-13 08:51:54 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-13 08:51:55 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-13 08:51:55 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-13 08:51:55 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-13 08:51:57 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-13 08:51:57 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 09:07:06 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Master.xml"
-2026-10-13 09:08:20 DEBUG TestNG:82 -suiteXmlPath: "G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\Grid-Docker.xml"
-2026-10-13 09:08:46 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-13 09:08:46 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-13 09:08:46 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-13 09:09:02 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-13 09:09:02 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-13 09:09:06 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
-2026-10-13 09:09:06 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 09:09:35 INFO  TC001_AccountRegisterTest:14 -***** Starting TC001_AccountRegistrationTest  ****
-2026-10-13 09:09:35 DEBUG TC001_AccountRegisterTest:15 -This is a debug log message
-2026-10-13 09:09:35 INFO  TC001_AccountRegisterTest:19 -Clicked on MyAccount Link.. 
-2026-10-13 09:09:36 INFO  TC001_AccountRegisterTest:21 -Clicked on Register Link.. 
-2026-10-13 09:09:36 INFO  TC001_AccountRegisterTest:24 -Providing customer details...
-2026-10-13 09:09:38 INFO  TC001_AccountRegisterTest:36 -Validating expected message..
-2026-10-13 09:09:38 INFO  TC001_AccountRegisterTest:48 -***** Finished TC001_AccountRegistrationTest *****
-2026-10-13 09:09:43 INFO  TC_002_LoginTest:16 -**** Starting TC_002_LoginTest  ****
-2026-10-13 09:09:43 DEBUG TC_002_LoginTest:17 -capturing application debug logs....
-2026-10-13 09:09:44 INFO  TC_002_LoginTest:22 -clicked on myaccount link on the home page..
-2026-10-13 09:09:44 INFO  TC_002_LoginTest:24 -clicked on login link under myaccount..
-2026-10-13 09:09:44 INFO  TC_002_LoginTest:28 -Entering valid email and password..
-2026-10-13 09:09:46 INFO  TC_002_LoginTest:32 -clicked on login button..
-2026-10-13 09:09:46 INFO  TC_002_LoginTest:51 -***** Finished TC001_AccountRegistrationTest *****

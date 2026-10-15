@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="87.237" tests="6" errors="0" skipped="2" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="362.949" tests="6" errors="0" skipped="4" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Zues\AppData\Local\Temp\surefire17073581242582570545\surefirebooter-20261013090819579_3.jar C:\Users\Zues\AppData\Local\Temp\surefire17073581242582570545 2026-10-13T09-08-19_245-jvmRun1 surefire-20261013090819579_1tmp surefire_0-20261013090819579_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Zues\AppData\Local\Temp\surefire3108016117867867998\surefirebooter-20261013090705180_3.jar C:\Users\Zues\AppData\Local\Temp\surefire3108016117867867998 2026-10-13T09-07-04_845-jvmRun1 surefire-20261013090705180_1tmp surefire_0-20261013090705180_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\target\test-classes;G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\target\classes;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-java\4.50.0\selenium-java-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-api\4.50.0\selenium-api-4.50.0.jar;C:\Users\Zues\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.50.0\selenium-chrome-driver-4.50.0.jar;C:\Users\Zues\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.50.0\selenium-chromium-driver-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-json\4.50.0\selenium-json-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.50.0\selenium-manager-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.50.0\selenium-devtools-latest-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v152\4.50.0\selenium-devtools-v152-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.50.0\selenium-devtools-v153-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.50.0\selenium-devtools-v154-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.50.0\selenium-edge-driver-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.50.0\selenium-firefox-driver-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-http\4.50.0\selenium-http-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.50.0\selenium-ie-driver-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.50.0\selenium-remote-driver-4.50.0.jar;C:\Users\Zues\.m2\repository\com\google\guava\guava\33.7.1-jre\guava-33.7.1-jre.jar;C:\Users\Zues\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Zues\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Zues\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\Zues\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Zues\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\Zues\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\Zues\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\Zues\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\Zues\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\Zues\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\Zues\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\Zues\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\Zues\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\Zues\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\Zues\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\Zues\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-os\4.50.0\selenium-os-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.50.0\selenium-safari-driver-4.50.0.jar;C:\Users\Zues\.m2\repository\org\seleniumhq\selenium\selenium-support\4.50.0\selenium-support-4.50.0.jar;C:\Users\Zues\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\Zues\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\Zues\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\Zues\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Zues\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Zues\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\Zues\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\Zues\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\Zues\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\Zues\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Zues\.m2\repository\org\apache\logging\log4j\log4j-core\2.26.1\log4j-core-2.26.1.jar;C:\Users\Zues\.m2\repository\org\apache\logging\log4j\log4j-api\2.26.1\log4j-api-2.26.1.jar;C:\Users\Zues\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.26.1\log4j-slf4j-impl-2.26.1.jar;C:\Users\Zues\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Zues\.m2\repository\commons-io\commons-io\2.22.0\commons-io-2.22.0.jar;C:\Users\Zues\.m2\repository\org\apache\commons\commons-lang3\3.21.0\commons-lang3-3.21.0.jar;C:\Users\Zues\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Zues\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Zues\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Zues\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Zues\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Zues\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Zues\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Zues\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Zues\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Zues\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\Zues\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\Zues\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -35,7 +35,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Zues\AppData\Local\Temp\surefire17073581242582570545\surefirebooter-20261013090819579_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Zues\AppData\Local\Temp\surefire3108016117867867998\surefirebooter-20261013090705180_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
@@ -65,34 +65,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="verify_account_registration" classname="testCases.TC001_AccountRegisterTest" time="19.654">
-    <system-err><![CDATA[2026-10-13T02:08:20.674522500Z main INFO Starting configuration XmlConfiguration[location=G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\target\test-classes\log4j2.xml, lastModified=2026-10-12T09:01:44.237Z]...
-2026-10-13T02:08:20.676529400Z main INFO Configuration XmlConfiguration[location=G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\target\test-classes\log4j2.xml, lastModified=2026-10-12T09:01:44.237Z] started.
-2026-10-13T02:08:20.679856300Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@1e6454ec...
-2026-10-13T02:08:20.679856300Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@1e6454ec stopped.
-Oct 13, 2026 9:08:21 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
-INFO: Using OpenTelemetry for tracing
-]]></system-err>
-  </testcase>
-  <testcase name="verify_account_registration" classname="testCases.TC001_AccountRegisterTest" time="3.275"/>
-  <testcase name="setup[Linux, chrome](0)" classname="testCases.TC002_LoginTest$TC_002_LoginTest" time="41.77">
-    <failure message="unknown error: net::ERR_CONNECTION_REFUSED&#10;  (Session info: chrome=153.0.8010.47)&#10;Build info: version: &apos;4.50.0&apos;, revision: &apos;be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [26abd63d7900b533855793264bef0eb5, get {url=https://tutorialsninja.com/demo/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35883}, goog:processID: 443, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.2:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: e59234189b3d, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.19.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 26abd63d7900b533855793264bef0eb5" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=153.0.8010.47)
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [26abd63d7900b533855793264bef0eb5, get {url=https://tutorialsninja.com/demo/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35883}, goog:processID: 443, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.2:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: e59234189b3d, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.19.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 26abd63d7900b533855793264bef0eb5
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:252)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:667)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:377)
-	at testBase.BaseClass.setup(BaseClass.java:105)
+  <testcase name="setup[Windows, chrome](0)" classname="testCases.TC001_AccountRegisterTest" time="181.953">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null &#10;Host info: host: &apos;DESKTOP-DK1FRQF&apos;, ip: &apos;192.168.1.3&apos;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'DESKTOP-DK1FRQF', ip: '192.168.1.3'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:294)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:189)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:171)
+	at testBase.BaseClass.setup(BaseClass.java:81)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -123,12 +107,110 @@ Session ID: 26abd63d7900b533855793264bef0eb5
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:441)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:90)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:227)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:667)
+	... 37 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2792)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-err><![CDATA[2026-10-13T02:07:06.215562500Z main INFO Starting configuration XmlConfiguration[location=G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\target\test-classes\log4j2.xml, lastModified=2026-10-12T09:01:44.237Z]...
+2026-10-13T02:07:06.217565400Z main INFO Configuration XmlConfiguration[location=G:\_Udemy\Projects\OpenCart\Project\OpenCart0001\target\test-classes\log4j2.xml, lastModified=2026-10-12T09:01:44.237Z] started.
+2026-10-13T02:07:06.219618Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@1e6454ec...
+2026-10-13T02:07:06.219618Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@1e6454ec stopped.
+Oct 13, 2026 9:07:07 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="verify_account_registration" classname="testCases.TC001_AccountRegisterTest" time="0.0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null &#10;Host info: host: &apos;DESKTOP-DK1FRQF&apos;, ip: &apos;192.168.1.3&apos;"/>
+  </testcase>
+  <testcase name="teardown" classname="testCases.TC001_AccountRegisterTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup[Windows, chrome](0)" classname="testCases.TC002_LoginTest$TC_002_LoginTest" time="180.023">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null &#10;Host info: host: &apos;DESKTOP-DK1FRQF&apos;, ip: &apos;192.168.1.3&apos;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'DESKTOP-DK1FRQF', ip: '192.168.1.3'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:294)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:189)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:171)
+	at testBase.BaseClass.setup(BaseClass.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:441)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:90)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:227)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:667)
+	... 37 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2792)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 ]]></failure>
   </testcase>
   <testcase name="verify_login" classname="testCases.TC002_LoginTest$TC_002_LoginTest" time="0.0">
-    <skipped message="unknown error: net::ERR_CONNECTION_REFUSED&#10;  (Session info: chrome=153.0.8010.47)&#10;Build info: version: &apos;4.50.0&apos;, revision: &apos;be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [26abd63d7900b533855793264bef0eb5, get {url=https://tutorialsninja.com/demo/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.47, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35883}, goog:processID: 443, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.2:4444/sessio..., se:cdpVersion: 153.0.8010.47, se:containerName: e59234189b3d, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.19.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 26abd63d7900b533855793264bef0eb5"/>
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null &#10;Host info: host: &apos;DESKTOP-DK1FRQF&apos;, ip: &apos;192.168.1.3&apos;"/>
   </testcase>
-  <testcase name="verify_login" classname="testCases.TC002_LoginTest$TC_002_LoginTest" time="2.159"/>
   <testcase name="teardown" classname="testCases.TC002_LoginTest$TC_002_LoginTest" time="0.0">
     <skipped/>
   </testcase>
